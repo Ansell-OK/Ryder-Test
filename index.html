@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryder | Putting Crypto in Every Pocket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: {
+                main: '#05060A',
+                secondary: '#0B0D12',
+                card: '#12141C',
+                cardHighlight: '#1C2541',
+              },
+              primary: {
+                accent: '#3B82F6',
+                accentGlow: 'rgba(59, 130, 246, 0.5)',
+              },
+              secondary: {
+                accent: '#06B6D4',
+              },
+              text: {
+                primary: '#FFFFFF',
+                secondary: '#9CA3AF',
+                dark: '#0F172A',
+              },
+              border: {
+                subtle: 'rgba(255, 255, 255, 0.08)',
+                highlight: 'rgba(59, 130, 246, 0.3)',
+              }
+            },
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+              body: ['Inter', 'sans-serif'],
+            },
+            boxShadow: {
+              'glow-blue': '0px 0px 80px rgba(59, 130, 246, 0.15)',
+              'card-elevation': '0px 4px 20px rgba(0, 0, 0, 0.4)',
+              'button-glow': '0px 0px 15px rgba(255, 255, 255, 0.3)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #05060A;
+        color: #FFFFFF;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0B0D12;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #3B82F6;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #2563EB;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.25"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
